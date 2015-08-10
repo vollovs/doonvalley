@@ -1,0 +1,83 @@
+{% extends 'site-layout.html' %}
+
+{% block title %} - {{ page_title }} {% endblock %}
+
+{% load staticfiles %}
+{% block content %}
+
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Do you know?</h2>
+          <p>Having a web site may be the most important investment for a modern business. A web site brings advantages to your business:</p>
+			<ul>
+				<li>80% of consumers under 30 search for company information online,  because a visit to a conventional retail store requires travel and must  take place during business hours.</li>
+				<li>35% of consumers search for products and service online as their first option.</li>
+				<li>28% of consumers search online via mobile device only.</li>
+			</ul>
+        </div>
+        <div class="col-md-4">
+          <h2>The Fact</h2>
+          <p>Knowing the importance of online advertisement, many companies still fail to present their product and service online due to following reasons:</p>
+			<ul>
+				<li>Lack of special knowledge and skills to setup the web site.</li>
+				<li>Without proper design, it takes too much time to maintain a web site.</li>
+			    <li>Don't know how to promote the current web site.</li>
+			    <li>Small business with tight budget to build  web site, and failed to hire unprofessionals to build the site. </li>
+			</ul>
+       </div>
+        <div class="col-md-4">
+          <h2>Our solution</h2>
+          <p>We offer an incredible starter's plan which includes everything you need to get your business on line. We will do all the technical details involved to build the web site:</p>
+			<ul>
+				<li>Registering a domain name for you.</li>
+				<li>Setting up a Web Hosting space.</li>
+				<li>Custom designing your web site to suit your business needs.</li>
+				<li>Getting your email addresses with your company domain.</li>
+				<li>Optimizing your web site for better search engine ranking.</li>
+			</ul>
+        </div>
+      </div>
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Frustrated on domain registration? <span class="text-muted">We will take care of all technical headache from you.</span></h2>
+          <p>We have dedicated high speed server running in the cloud. We built business partnership with reputable domain service providers. We help you register your domain and renew the domain for you every year. If you site have any issues, your call us and we will directly handle the technical talk to the hosting company in 24 hours.</p>
+          <p>You site are running on our high speed server and we help you monitor the security day and night.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="{% static "images/network.jpg" %}" alt="profession web engineering">
+        </div>
+        
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="{% static "images/design.jpg" %}" alt="profession web site design">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Don't know the web design? <span class="text-muted">We offer affordable custom web design service.</span></h2>
+          <p>We are seasoned web design team. Give us a call, we will meet you in person to understand your needs. We offer free consultation and guide to plan your site. </p>
+          <p>You pay the service only when your are happy with our initial design.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">No Plan for marketing your site?<span class="text-muted">Check our SEO service.</span></h2>
+          <p>Doing online search engine optimization is as important as put the website on line. We help you the analysis you current visitors, development you online advertisement plan.</p>
+          <p>If you don't have time and knowledge to execute it, we can help you get it done in a reasonable price range.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="{% static "images/marketing.jpg" %}" alt="Help you on line marketing">
+        </div>
+      </div>
+
+{% endblock %}
