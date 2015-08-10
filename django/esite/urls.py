@@ -16,6 +16,15 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
+import member
+
 urlpatterns = [
+    url(r'^$', esite.views.home, name='home'),
+    url(r'^member/', include(member.urls)),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^captcha/', include(captcha.urls)),
 ]
+
+urlpatterns += patterns('',
+    url(r'^captcha/', include('captcha.urls')),
+)
