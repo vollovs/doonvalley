@@ -5,5 +5,32 @@
 {% load staticfiles %}
 {% block content %}
 
+{% if schedule %}
+<table class="table table-bordered table-hover table-striped table-condensed">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>活動日期</th>
+          <th>星期</th>
+          <th>活動時間</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      {% for key, event in schedule.items %}
+
+        <tr>
+          <th scope="row">{{key}}</th>
+          <td>{{event.event_date}}</td>
+          <td>{{event.weekday}}</td>
+          <td>{{event.time_range}}</td>
+        </tr>
+       {% endfor %} 
+      </tbody>
+    </table>
+
+{% else %}
+    <p>There are no events.</p>
+{% endif %}
 
 {% endblock %}

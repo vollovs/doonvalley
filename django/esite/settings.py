@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'doonvalley',
         'USER': 'root',
         'PASSWORD': 'justdoit', 
-        'HOST': 'localhost', 
+        'HOST': '127.0.0.1', 
     }
 }
 

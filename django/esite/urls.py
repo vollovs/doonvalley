@@ -23,7 +23,7 @@ from page import views as pageview
 urlpatterns = [
     url(r'^$', pageview.home, name='home'),
     url(r'^page/', include(page.urls)),
-#     url(r'^member/', include(member.urls)),
+    url(r'^member/', include(member.urls)),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^captcha/', include('captcha.urls')),
 ]

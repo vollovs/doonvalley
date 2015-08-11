@@ -1,0 +1,25 @@
+[ 1] : 2015 - OCT -20 (TUE)	 FROM 8:00pm TO 10:00pm
+[ 2] : 2015 - OCT -27 (TUE)	 FROM 8:00pm TO 10:00pm
+[ 3] : 2015 - NOV -3  (TUE)	 FROM 8:00pm TO 10:00pm
+[ 4] : 2015 - NOV -10 (TUE)	 FROM 8:00pm TO 10:00pm
+[ 5] : 2015 - NOV -17 (TUE)	 FROM 8:00pm TO 10:00pm
+[ 6] : 2015 - NOV -24 (TUE)	 FROM 8:00pm TO 10:00pm
+[ 7] : 2015 - DEC -1  (TUE)	 FROM 8:00pm TO 10:00pm
+[ 8] : 2015 - DEC -8  (TUE)	 FROM 8:00pm TO 10:00pm
+[ 9] : 2015 - DEC -15 (TUE)	 FROM 8:00pm TO 10:00pm
+[10] : 2016 - JAN -5  (TUE)	 FROM 8:00pm TO 10:00pm
+[11] : 2016 - JAN -12 (TUE)	 FROM 8:00pm TO 10:00pm
+[12] : 2016 - JAN -19 (TUE)	 FROM 8:00pm TO 10:00pm
+[13] : 2016 - JAN -26 (TUE)	 FROM 8:00pm TO 10:00pm
+[14] : 2016 - FEB -2  (TUE)	 FROM 8:00pm TO 10:00pm
+[15] : 2016 - FEB -9  (TUE)	 FROM 8:00pm TO 10:00pm
+[16] : 2016 - FEB -16 (TUE)	 FROM 8:00pm TO 10:00pm
+[17] : 2016 - FEB -23 (TUE)	 FROM 8:00pm TO 10:00pm
+[18] : 2016 - MAR -1  (TUE)	 FROM 8:00pm TO 10:00pm
+[19] : 2016 - MAR -8  (TUE)	 FROM 8:00pm TO 10:00pm
+[20] : 2016 - MAR -22 (TUE)	 FROM 8:00pm TO 10:00pm
+[21] : 2016 - MAR -29 (TUE)	 FROM 8:00pm TO 10:00pm
+[22] : 2016 - APR -5  (TUE)	 FROM 8:00pm TO 10:00pm
+[23] : 2016 - APR -12 (TUE)	 FROM 8:00pm TO 10:00pm
+[24] : 2016 - APR -19 (TUE)	 FROM 8:00pm TO 10:00pm
+[25] : 2016 - APR -26 (TUE)	 FROM 8:00pm TO 10:00pm

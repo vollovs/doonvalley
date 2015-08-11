@@ -1,0 +1,122 @@
+body {
+	margin: 0 auto;
+	padding: 24px 0;
+	font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-size: 12px;
+	background: none repeat scroll 0 0 white;
+	color: #454545;
+	border: 0 none;
+	vertical-align: baseline;
+	width: 100%;
+}
+
+/*
+ *  Header area
+ */
+.header {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.header-right{
+	padding-right: 50px;
+}
+
+.logo {
+	padding-left: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	height: 80px;
+}
+
+.phone {
+	text-align: right;
+	height: 30px;
+	font-size: 19px;
+}
+
+.address {
+	text-align: right;
+	height: 22px;
+	font-size: 14px;
+}
+
+.menu {
+	text-align: right;
+	height: 28px;
+	font-size: 12px;
+}
+
+.nav > li {
+	height: 28px;
+	font-size: 18px;
+	padding: 0px 40px 0px 0px;
+}
+
+.nav >li>a {
+	color: #000000;
+}
+
+.nav > li a {
+	height: 24px;
+	color: #FF0000;
+	/* color: #383838; */
+	padding: 2px;
+}
+
+.nav > li a:hover, a.active {
+	border-bottom: 2px solid #ba5454;
+	background:#FFFFFF;
+	color: #428bca;
+}
+
+.content {
+}
+
+.welcome {
+	color: #A52A2A;
+	padding: 0px 30px 0px 30px;
+	font-size: 28px;
+	font-weight: 300;
+}
+
+.image-new-arrive {
+	width: 205px;
+	/*height: 205px; */
+}
+/** slideshow 
+.active{
+        z-index:99;
+    }
+**/
+    
+.footer {
+	/* color: white;
+	background-color:  #FFFFFF; */
+	font-size: 14px;
+	height: 45px;
+}
+
+/*
+.car-spec-box {
+	height: 154px;
+}*/
+
+.split-left{
+	border-left: 1px solid #eee;
+}
+
+.split-right{
+	border-right: 1px solid #eee;
+}
+
+.car-thumb {
+	margin-bottom: 12px;
+	margin-right: 8px;
+}
+
+#map-canvas {
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
