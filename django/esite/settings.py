@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'captcha',
+    'crispy_forms',
     'member',
     'page',
 )
@@ -122,3 +123,5 @@ TEMPLATE_DIRS = (
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = '/opt/www/doonvalley/media'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'

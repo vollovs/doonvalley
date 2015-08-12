@@ -2,6 +2,7 @@ from django.shortcuts import render
 
 from forms import MemberForm
 from models import Member
+from django.shortcuts import get_object_or_404
 
 def register(request):
     # A HTTP POST?
@@ -24,13 +25,13 @@ def register(request):
         # If the request was not a POST, display the form to enter details.
         form = MemberForm()
 
-    return render(request, 'add.html', {
-        'page_title': 'Contact us',
+    return render(request, 'register.html', {
+        'page_title': 'Register',
         'form': form,
     })
     
 def show_msg(request, mid):
-    member = get_object_or_404(Message, id=mid)
+    member = get_object_or_404(Member, id=mid)
     return render(request, 'show.html', {
         'page_title': 'member - '+ mid,
         'member': member,

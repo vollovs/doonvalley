@@ -8,6 +8,12 @@ footer {
 	font-size: 12px;
 }
 
+#map-canvas {
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
 .subtitle {
 	padding-top: 32px;
 	font-size: 18px;

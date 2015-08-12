@@ -3,11 +3,11 @@ import uuid
 
 class Member(models.Model):
     BASKETBALL = 'BB'
-    VOLLEYBALL = 'VO'
+    BADMINTON = 'BA'
     
     CLUB = (
         (BASKETBALL, 'Basketball'),
-        (VOLLEYBALL, 'Volleyball'),
+        (BADMINTON, 'Badminton'),
     )
     
     id = models.CharField(max_length=64, primary_key=True, verbose_name=u"Activation key",
@@ -21,7 +21,7 @@ class Member(models.Model):
                                       choices=CLUB,
                                       default=BASKETBALL)
     
-    active = models.BooleanField(default=True)
+    active = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True)
     
     def __unicode__(self):

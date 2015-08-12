@@ -28,7 +28,7 @@ class MemberForm(forms.ModelForm):
             ),
             Field(
                 'club',
-                placeholder = 'Please leave use a message here',
+                placeholder = 'Sport to join',
             ),
             Field(
                 'captcha',
@@ -49,9 +49,15 @@ class MemberForm(forms.ModelForm):
         required=True, 
     )
     
+    CLUB_CHOICE = (
+        ('BB', 'Basketball'),
+        ('BA', 'Badminton'),
+    )
+        
     email = forms.EmailField(max_length=60, required=True)
-    phone = forms.CharField(max_length=20)
-    club = forms.CharField(max_length=20)
+    phone = forms.CharField(max_length=20, required=True)
+    club = forms.ChoiceField(choices=CLUB_CHOICE)
+    #forms.CharField(max_length=20)
     captcha = CaptchaField()
 
     # An inline class to provide additional information on the form.
