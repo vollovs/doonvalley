@@ -5,3 +5,4 @@ MySQL-python==1.2.5
 Pillow==2.9.0
 sorl-thumbnail==12.3
 django-simple-captcha==0.4.5
+pip install --upgrade django-crispy-forms
