@@ -1,1 +1,55 @@
-<p>basketball</p>
+{% extends 'site-layout.html' %}
+
+{% block title %} - {{ page_title }} {% endblock %}
+
+{% load staticfiles %}
+{% block content %}
+
+      <div class="row featurette">
+      	<h2>美国国家队基本动作</h2>
+        <div class="col-md-3">
+        	投篮
+        	<iframe class="img-responsive" src="https://www.youtube.com/embed/nWgcOlUQM4U" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3">
+          传球
+          <iframe class="img-responsive" src="https://www.youtube.com/embed/SbOsxamKyzY" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3">
+          准备进攻
+          <iframe class="img-responsive" src="https://www.youtube.com/embed/KYct_U274JA" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3">
+          个人突破
+          <iframe class="img-responsive" src="https://www.youtube.com/embed/cKyw7iVYgOc" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3">
+          怎样抢篮板球
+          <iframe class="img-responsive" src="https://www.youtube.com/embed/fvu-QCVfBzU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3">
+          进攻掩护
+          <iframe class="img-responsive" src="https://www.youtube.com/embed/ffjo8ReDzhA" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+	  <div class="row featurette">
+        <h2>加拿大篮球动作详解</h2>
+        <div class="col-md-3">
+        	控球及突破步法
+        	<iframe class="img-responsive" src="https://www.youtube.com/embed/5uXpZFcp8cU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3">
+        	投篮
+        	<iframe class="img-responsive" src="https://www.youtube.com/embed/wM0Gvz2OWrA" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3">
+          防守
+          <iframe class="img-responsive" src="https://www.youtube.com/embed/AdcNFsCY46s" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+
+{% endblock %}
