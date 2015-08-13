@@ -48,7 +48,7 @@ class ProjectParser:
 #         for k,v in enum_month.iteritems():
 #             print k,v
         for content in self.file_buffer:
-            sql += "('{0}-{1:02}-{2:02}', '{3}', '{4}'),\n".format(content[3], int(enum_month[content[2]]), int(content[1]), content[0], len(content[4]))
+            sql += "('{0}-{1:02}-{2:02}', '{3}', '{4}'),\n".format(content[3], int(enum_month[content[2]]), int(content[1]), content[0], content[4])
             
         return sql
     
