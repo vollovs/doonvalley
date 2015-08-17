@@ -33,7 +33,31 @@ class MemberAdmin(admin.ModelAdmin):
     
     member_enroll.short_description = "Enroll member"
 
-    actions = [member_enroll]
+    #activate cars
+    def activate(self, request, queryset):
+        rows_updated = queryset.update(active=True)
+        
+        if rows_updated == 1:
+            message_bit = "1 member was"
+        else:
+            message_bit = "%s members were" % rows_updated
+        self.message_user(request, "%s successfully activated." % message_bit)
+    
+    activate.short_description = "Activate Member"
+    
+    #deactivate cars
+    def deactivate(self, request, queryset):
+        rows_updated = queryset.update(active=False)
+        
+        if rows_updated == 1:
+            message_bit = "1 member was"
+        else:
+            message_bit = "%s members were" % rows_updated
+        self.message_user(request, "%s successfully deactivated." % message_bit)
+    
+    deactivate.short_description = "Deactivate Member"
+    
+    actions = [member_enroll, activate, deactivate]
     list_display = ['club','chinese_name','english_name', 'email', 'phone','created','active']    
     list_filter = ['club']
     
